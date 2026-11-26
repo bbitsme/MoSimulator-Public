@@ -45,6 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6e5076d4abba0740b9d444725eba6f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoadedRobots:
+  - {fileID: 11400000, guid: 189d5608df86adc45ae26bccfb7a166c, type: 2}
+  LoadedModpacks:
+  - {fileID: 11400000, guid: c0231e200dde04846b5424051df0dee3, type: 2}
 --- !u!114 &5207229405704077532
 MonoBehaviour:
   m_ObjectHideFlags: 0

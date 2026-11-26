@@ -1108,100 +1108,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &81212858336483496
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9027071735270436364}
-  - component: {fileID: 7733701629738579762}
-  m_Layer: 0
-  m_Name: Hopper and Indexer Rollers <1> (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9027071735270436364
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 81212858336483496}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 957923178115696754}
-  - {fileID: 9127307860664082606}
-  - {fileID: 3690689934951635293}
-  - {fileID: 7779611807687123169}
-  - {fileID: 797979744945266098}
-  - {fileID: 4178980596999186475}
-  - {fileID: 5592557838637102544}
-  m_Father: {fileID: 6935519358332517581}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7733701629738579762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 81212858336483496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1f241b615b547e394941950c1369b44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rollers:
-  - IntRoller: {fileID: 5081891510557024327}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 6099176210951726981}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 2031546176269331603}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 13747038689600506}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 9207713579866648055}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 4839924837733925841}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 4086872518459203185}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
 --- !u!1 &83575838661617400
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,89 +1534,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &121029528331498486
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7158945060959625587}
-  - component: {fileID: 258700995188134696}
-  m_Layer: 0
-  m_Name: Roller (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7158945060959625587
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121029528331498486}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0, y: -0.33020002, z: 0.012700001}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2003402195017368678}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &258700995188134696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121029528331498486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 1585262718293856283}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &141437224941295493
 GameObject:
   m_ObjectHideFlags: 0
@@ -4092,89 +3915,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &269064239439836990
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 797979744945266098}
-  - component: {fileID: 9207713579866648055}
-  m_Layer: 0
-  m_Name: Roller (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &797979744945266098
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 269064239439836990}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.4539904, y: -0, z: -0, w: 0.89100665}
-  m_LocalPosition: {x: -0.000000015862726, y: -0.18906562, z: -0.19893794}
-  m_LocalScale: {x: 1, y: 0.99999964, z: 0.99999964}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9027071735270436364}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9207713579866648055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 269064239439836990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.6219231
-  length: 12.750004
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 69779245586996098}
-    jointAxis: 0
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &269618604926260164
 GameObject:
   m_ObjectHideFlags: 0
@@ -9146,89 +8886,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &600937647373974911
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2830617491583871114}
-  - component: {fileID: 4546646777150403646}
-  m_Layer: 0
-  m_Name: Roller (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2830617491583871114
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600937647373974911}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: -0.0381, y: -0.33020002, z: 0.012700001}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2003402195017368678}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4546646777150403646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600937647373974911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 5861018943813287148}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &611253973047681691
 GameObject:
   m_ObjectHideFlags: 0
@@ -11831,7 +11488,6 @@ Transform:
   m_Children:
   - {fileID: 4876282210092437338}
   - {fileID: 1581336022807427243}
-  - {fileID: 4527209150683133357}
   m_Father: {fileID: 433708427573142189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &788393933424083874
@@ -15346,89 +15002,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1057571841136886571
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 957923178115696754}
-  - component: {fileID: 5081891510557024327}
-  m_Layer: 0
-  m_Name: Roller
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &957923178115696754
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1057571841136886571}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.20791173, y: -0, z: -0, w: 0.97814757}
-  m_LocalPosition: {x: 0.000000017764775, y: -0.16359664, z: 0.036359746}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9027071735270436364}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5081891510557024327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1057571841136886571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.6219225
-  length: 18.000002
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 558680700312406789}
-    jointAxis: 0
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &1071553651582570895
 GameObject:
   m_ObjectHideFlags: 0
@@ -16632,89 +16205,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1164626286859595704
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 125648023038729840}
-  - component: {fileID: 5740527724376334638}
-  m_Layer: 0
-  m_Name: Roller
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &125648023038729840
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164626286859595704}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: -0.0635, y: -0.33020002, z: 0.012700001}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2003402195017368678}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5740527724376334638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164626286859595704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 506848952444994773}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &1167269144381370198
 GameObject:
   m_ObjectHideFlags: 0
@@ -21835,58 +21325,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1455516965731577414
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3856830330704684281}
-  - component: {fileID: 5828268341310501225}
-  m_Layer: 0
-  m_Name: Intake Assembly <1>
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3856830330704684281
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455516965731577414}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 364727991198401309}
-  m_Father: {fileID: 3442735105434061527}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5828268341310501225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455516965731577414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1f241b615b547e394941950c1369b44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rollers:
-  - IntRoller: {fileID: 2442041416349470348}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
 --- !u!1 &1459739281413681812
 GameObject:
   m_ObjectHideFlags: 0
@@ -24370,89 +23808,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1627933180128285554
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8343944016185027494}
-  - component: {fileID: 5543087500617961370}
-  m_Layer: 0
-  m_Name: Roller (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8343944016185027494
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627933180128285554}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: -0.012699999, y: -0.33020002, z: 0.19050002}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5543087500617961370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627933180128285554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 9038051059552952042}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &1631246803121335120
 GameObject:
   m_ObjectHideFlags: 0
@@ -25186,89 +24541,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1673588549533793990
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 579339161627281439}
-  - component: {fileID: 4367310505174003160}
-  m_Layer: 0
-  m_Name: Roller (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &579339161627281439
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1673588549533793990}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0.012699999, y: -0.33020002, z: 0.012700001}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2003402195017368678}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4367310505174003160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1673588549533793990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 4828022635272492337}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &1674118292794872281
 GameObject:
   m_ObjectHideFlags: 0
@@ -28450,39 +27722,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1855866283623854262
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3439314182140872225}
-  m_Layer: 0
-  m_Name: DynamicPhysics
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3439314182140872225
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1855866283623854262}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 9126582676417410268}
-  - {fileID: 2003402195017368678}
-  m_Father: {fileID: 6385192834500753766}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1859423242910631556
 GameObject:
   m_ObjectHideFlags: 0
@@ -30308,7 +29547,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100.000015, z: 99.999985}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4743883227787847744}
+  m_Father: {fileID: 5790361574864997910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5092987650705755068
 MeshFilter:
@@ -32579,89 +31818,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &2104358991706944356
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3473064804340530420}
-  - component: {fileID: 7228935207768884728}
-  m_Layer: 0
-  m_Name: Roller (12)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3473064804340530420
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2104358991706944356}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0.012699999, y: -0.33020002, z: 0.19050002}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7228935207768884728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2104358991706944356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 4463659252953341933}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &2117919786373251631
 GameObject:
   m_ObjectHideFlags: 0
@@ -33100,6 +32256,39 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2147088445838614578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2035566943315739504}
+  m_Layer: 0
+  m_Name: collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2035566943315739504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147088445838614578}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6996662514173046224}
+  - {fileID: 4947069570192529070}
+  m_Father: {fileID: 4876282210092437338}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2151095985251011475
 GameObject:
   m_ObjectHideFlags: 0
@@ -33697,89 +32886,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &2202362755827641685
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 621578302310944253}
-  - component: {fileID: 2968897189575648949}
-  m_Layer: 0
-  m_Name: Roller (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &621578302310944253
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2202362755827641685}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0.025399998, y: -0.33020002, z: 0.19050002}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2968897189575648949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2202362755827641685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 9016778364926487364}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &2210558567021043018
 GameObject:
   m_ObjectHideFlags: 0
@@ -34036,97 +33142,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &2240750012274920350
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2075377626121591968}
-  - component: {fileID: 6446058706652816694}
-  m_Layer: 0
-  m_Name: Roller
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2075377626121591968
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2240750012274920350}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.40331668, y: -0.5962775, z: -0.5048486, w: -0.4763579}
-  m_LocalPosition: {x: -0.062087025, y: -0.4972052, z: 0.10382701}
-  m_LocalScale: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3481306469024524518}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6446058706652816694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2240750012274920350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 1.9823576
-  length: 3.437502
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 7535245301397885950}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 1471057326062854386}
-    jointAxis: 2
-    reversed: 1
-    multiplier: 1
-  - model: {fileID: 33907166707424264}
-    jointAxis: 2
-    reversed: 1
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &2252555521298308819
 GameObject:
   m_ObjectHideFlags: 0
@@ -34523,89 +33538,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &2265277770464281019
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6035401509809716925}
-  - component: {fileID: 6705558393775714007}
-  m_Layer: 0
-  m_Name: Roller (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6035401509809716925
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2265277770464281019}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: -0.012699999, y: -0.2342357, z: 0.16237864}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6705558393775714007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2265277770464281019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 5674617152551377840}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &2271842214492941776
 GameObject:
   m_ObjectHideFlags: 0
@@ -37494,89 +36426,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.36932775, y: 0.0015240863, z: 0.33048242}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &2508435502501509054
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3953748934583983343}
-  - component: {fileID: 1468310493036810472}
-  m_Layer: 0
-  m_Name: Roller (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3953748934583983343
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2508435502501509054}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0, y: -0.2342357, z: 0.16237864}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1468310493036810472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2508435502501509054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 6672883835346850489}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &2510383426283601671
 GameObject:
   m_ObjectHideFlags: 0
@@ -45304,7 +44153,6 @@ Transform:
   - {fileID: 5921196920200682028}
   - {fileID: 207454239867624378}
   - {fileID: 7747829772046625642}
-  - {fileID: 6404104457759946257}
   - {fileID: 4263097645801083445}
   - {fileID: 9154993132234751451}
   - {fileID: 4863250643952350853}
@@ -45425,14 +44273,12 @@ Transform:
   - {fileID: 8053518149038973046}
   - {fileID: 8563314941036112010}
   - {fileID: 3070401996273389119}
-  - {fileID: 4808976351485102404}
   - {fileID: 6621590823523800353}
   - {fileID: 5780048585037455681}
   - {fileID: 3628701998350737915}
   - {fileID: 3988169332089872864}
   - {fileID: 7065237687175208539}
   - {fileID: 8761096385660758504}
-  - {fileID: 439006129012467552}
   - {fileID: 7915848521240088661}
   - {fileID: 2121859232113133508}
   - {fileID: 427884961566823047}
@@ -45560,7 +44406,6 @@ Transform:
   - {fileID: 8500089068740602232}
   - {fileID: 4766241076187348635}
   - {fileID: 6757434179610043246}
-  - {fileID: 261031686864544500}
   - {fileID: 6545792844525752657}
   - {fileID: 8203013051645679993}
   - {fileID: 4058429356064761663}
@@ -45688,7 +44533,6 @@ Transform:
   - {fileID: 9025332505040931143}
   - {fileID: 237709262743432863}
   - {fileID: 2118627345794349799}
-  - {fileID: 3082759649300773734}
   - {fileID: 475588308522804631}
   - {fileID: 961194299188044986}
   - {fileID: 3056619123733039556}
@@ -45814,6 +44658,7 @@ Transform:
   - {fileID: 5679669245178318269}
   - {fileID: 1119258022054751992}
   - {fileID: 414948402245337361}
+  - {fileID: 4808976351485102404}
   m_Father: {fileID: 5790361574864997910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3026705733298575098
@@ -48730,7 +47575,7 @@ Transform:
   m_LocalScale: {x: 99.999985, y: 100.000015, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4743883227787847744}
+  m_Father: {fileID: 5790361574864997910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2572157053838764764
 MeshFilter:
@@ -49041,89 +47886,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3253472204215879344
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 644626052345316241}
-  - component: {fileID: 3999815173992899187}
-  m_Layer: 0
-  m_Name: Roller (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &644626052345316241
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3253472204215879344}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0.025399998, y: -0.33020002, z: 0.012700001}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2003402195017368678}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3999815173992899187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3253472204215879344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 5099148201162460705}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &3265277678753157580
 GameObject:
   m_ObjectHideFlags: 0
@@ -49464,89 +48226,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3280134645170841554
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 350266104266604820}
-  - component: {fileID: 513584032350984309}
-  m_Layer: 0
-  m_Name: Roller (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &350266104266604820
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3280134645170841554}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: -0.012699999, y: -0.1686274, z: 0.08691005}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &513584032350984309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3280134645170841554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 9032082888909936650}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &3284951715632752442
 GameObject:
   m_ObjectHideFlags: 0
@@ -49973,6 +48652,59 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3302603444300209815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6996662514173046224}
+  - component: {fileID: 2224942368551299686}
+  m_Layer: 0
+  m_Name: Box (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6996662514173046224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3302603444300209815}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.027422275, y: 0.6951859, z: -0.7065748, w: -0.12929319}
+  m_LocalPosition: {x: 0.0586, y: -0.4687, z: 0.1703}
+  m_LocalScale: {x: 0.9999995, y: 0.9999999, z: 0.7458298}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2035566943315739504}
+  m_LocalEulerAnglesHint: {x: 98.31299, y: 102.758, z: -90}
+--- !u!65 &2224942368551299686
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3302603444300209815}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.23155136, y: 0.0022860193, z: 0.15406492}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3306333794431820854
 GameObject:
   m_ObjectHideFlags: 0
@@ -50771,7 +49503,6 @@ Transform:
   m_Children:
   - {fileID: 949441122704126042}
   - {fileID: 8451706386445281198}
-  - {fileID: 3442735105434061527}
   m_Father: {fileID: 433708427573142189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3382113847107119034
@@ -50859,38 +49590,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3387525713344182404
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4527209150683133357}
-  m_Layer: 0
-  m_Name: DynamicPhysics
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4527209150683133357
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3387525713344182404}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3481306469024524518}
-  m_Father: {fileID: 1011320256293712204}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3390738021929159711
 GameObject:
   m_ObjectHideFlags: 0
@@ -56169,58 +54868,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3804484476595061765
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3481306469024524518}
-  - component: {fileID: 2707577509093185597}
-  m_Layer: 0
-  m_Name: Shooter V2 <1>
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3481306469024524518
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3804484476595061765}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2075377626121591968}
-  m_Father: {fileID: 4527209150683133357}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2707577509093185597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3804484476595061765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1f241b615b547e394941950c1369b44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rollers:
-  - IntRoller: {fileID: 6446058706652816694}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
 --- !u!1 &3809728420894948162
 GameObject:
   m_ObjectHideFlags: 0
@@ -56391,89 +55038,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3820462300221527789
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7581011089518563400}
-  - component: {fileID: 1766772334098556240}
-  m_Layer: 0
-  m_Name: Roller (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7581011089518563400
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3820462300221527789}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0, y: -0.1686274, z: 0.08691005}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1766772334098556240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3820462300221527789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 7875819554416479883}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &3820569849586674844
 GameObject:
   m_ObjectHideFlags: 0
@@ -56561,89 +55125,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3827212206967460720
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9127307860664082606}
-  - component: {fileID: 6099176210951726981}
-  m_Layer: 0
-  m_Name: Roller (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9127307860664082606
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3827212206967460720}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.20791173, y: -0, z: -0, w: 0.97814757}
-  m_LocalPosition: {x: 0.000000017764775, y: -0.16588618, z: -0.023596443}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9027071735270436364}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6099176210951726981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3827212206967460720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.6219225
-  length: 18.000002
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 355847851109139185}
-    jointAxis: 0
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &3835305679439574615
 GameObject:
   m_ObjectHideFlags: 0
@@ -57602,6 +56083,59 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3946009041156529842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4947069570192529070}
+  - component: {fileID: 1461218223854714575}
+  m_Layer: 0
+  m_Name: Box (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4947069570192529070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3946009041156529842}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.027422275, y: 0.6951859, z: -0.7065748, w: -0.12929319}
+  m_LocalPosition: {x: 0.0185, y: -0.4687, z: -0.0067}
+  m_LocalScale: {x: 0.9999995, y: 0.9999999, z: 0.7458298}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2035566943315739504}
+  m_LocalEulerAnglesHint: {x: 98.31299, y: 102.758, z: -90}
+--- !u!65 &1461218223854714575
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3946009041156529842}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.23155136, y: 0.0022860193, z: 0.15406492}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3950199424726517195
 GameObject:
   m_ObjectHideFlags: 0
@@ -58027,89 +56561,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3998753634120767788
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6259527840755620662}
-  - component: {fileID: 7294588570361277274}
-  m_Layer: 0
-  m_Name: Roller (15)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6259527840755620662
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3998753634120767788}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: -0.025399998, y: -0.33020002, z: 0.19050002}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7294588570361277274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3998753634120767788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 720631413822298023}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &4004103093082096951
 GameObject:
   m_ObjectHideFlags: 0
@@ -58740,8 +57191,6 @@ Transform:
   - {fileID: 7374249073299621305}
   - {fileID: 1037742077401129353}
   - {fileID: 3388475135693727636}
-  - {fileID: 8699805055029227363}
-  - {fileID: 6678688464086590412}
   m_Father: {fileID: 1011320256293712204}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4046716387505632783
@@ -62477,89 +60926,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &4283936341124232258
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4552160386722485004}
-  - component: {fileID: 8984067370829992159}
-  m_Layer: 0
-  m_Name: Roller (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4552160386722485004
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4283936341124232258}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: -0.025399998, y: -0.33020002, z: 0.012700001}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2003402195017368678}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8984067370829992159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4283936341124232258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 6296356080931004895}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &4284548185650011548
 GameObject:
   m_ObjectHideFlags: 0
@@ -63889,89 +62255,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &4354380540318215234
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1442916164750486517}
-  - component: {fileID: 3661527682379800163}
-  m_Layer: 0
-  m_Name: Roller
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1442916164750486517
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4354380540318215234}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: -0.025399998, y: -0.1686274, z: 0.08691005}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3661527682379800163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4354380540318215234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 2604499041107730894}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &4370558468588405252
 GameObject:
   m_ObjectHideFlags: 0
@@ -83148,7 +81431,7 @@ Transform:
   m_LocalScale: {x: 99.999985, y: 100.000015, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4743883227787847744}
+  m_Father: {fileID: 5790361574864997910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4306441483246707541
 MeshFilter:
@@ -84536,65 +82819,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5647622352844903271
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6647375152446923146}
-  - component: {fileID: 1685090495046202880}
-  m_Layer: 0
-  m_Name: Hopper and Indexer Rollers <1>
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6647375152446923146
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5647622352844903271}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5571603846217716273}
-  - {fileID: 7918805517501935527}
-  m_Father: {fileID: 6935519358332517581}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1685090495046202880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5647622352844903271}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1f241b615b547e394941950c1369b44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rollers:
-  - IntRoller: {fileID: 7182607255909302832}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 6163369034204585893}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
 --- !u!1 &5661308104072886515
 GameObject:
   m_ObjectHideFlags: 0
@@ -84935,89 +83159,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5675599758137600139
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5571603846217716273}
-  - component: {fileID: 7182607255909302832}
-  m_Layer: 0
-  m_Name: Roller
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5571603846217716273
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5675599758137600139}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.052335963, y: -0, z: -0, w: 0.9986295}
-  m_LocalPosition: {x: 0.000000006877163, y: -0.3617856, z: -0.09003516}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6647375152446923146}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7182607255909302832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5675599758137600139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.621923
-  length: 21.500002
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 764388874956654051}
-    jointAxis: 0
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &5677217720581441943
 GameObject:
   m_ObjectHideFlags: 0
@@ -85443,89 +83584,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5703321936801645902
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1185506680513763314}
-  - component: {fileID: 510027529867769295}
-  m_Layer: 0
-  m_Name: Roller (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1185506680513763314
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5703321936801645902}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: -0.012699999, y: -0.33020002, z: 0.012700001}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2003402195017368678}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &510027529867769295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5703321936801645902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 6920185380185164796}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &5707351732390388133
 GameObject:
   m_ObjectHideFlags: 0
@@ -86036,161 +84094,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5747647492908201692
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 364727991198401309}
-  - component: {fileID: 2442041416349470348}
-  m_Layer: 0
-  m_Name: Roller
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &364727991198401309
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5747647492908201692}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.8044168, y: 1.5909995e-15, z: -0.000000021073426, w: -0.5940655}
-  m_LocalPosition: {x: 0.002095461, y: -0.34125102, z: -0.19030575}
-  m_LocalScale: {x: 1, y: 0.99999964, z: 0.99999964}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3856830330704684281}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2442041416349470348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5747647492908201692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 2.1098375
-  length: 22.999998
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 7537294682491116110}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 7994349111567051973}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 8343078097092099677}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 8062055913262886830}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 1079201515755855142}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 2616501922569078024}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 914190395929125177}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 906047448648557172}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 7826212266547977514}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 1750098903292467085}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 7194679629065074917}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 2776907447495850071}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 388494779946321667}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 663258551494551438}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 7383026037622645058}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 6453169938865917809}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 4568117083075782424}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 2416212836783303742}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  - model: {fileID: 7631199582741489455}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &5752411875622902320
 GameObject:
   m_ObjectHideFlags: 0
@@ -87893,89 +85796,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5852420753528956564
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6093922316935568993}
-  - component: {fileID: 239043561416639778}
-  m_Layer: 0
-  m_Name: Roller (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6093922316935568993
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5852420753528956564}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: -0.025399998, y: -0.2342357, z: 0.16237864}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &239043561416639778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5852420753528956564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 1631246803121335120}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &5852964163066991952
 GameObject:
   m_ObjectHideFlags: 0
@@ -88061,128 +85881,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5857804537255301966
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2003402195017368678}
-  - component: {fileID: 1813990552430881475}
-  m_Layer: 0
-  m_Name: Feeder <1> (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2003402195017368678
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5857804537255301966}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 125648023038729840}
-  - {fileID: 2830617491583871114}
-  - {fileID: 7170073406355089164}
-  - {fileID: 4552160386722485004}
-  - {fileID: 1185506680513763314}
-  - {fileID: 7158945060959625587}
-  - {fileID: 579339161627281439}
-  - {fileID: 644626052345316241}
-  - {fileID: 8011188032765464958}
-  - {fileID: 5551257959791250203}
-  - {fileID: 7959545327021378326}
-  m_Father: {fileID: 3439314182140872225}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1813990552430881475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5857804537255301966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1f241b615b547e394941950c1369b44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rollers:
-  - IntRoller: {fileID: 5740527724376334638}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 4546646777150403646}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 1041345967232039810}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 8984067370829992159}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 510027529867769295}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 258700995188134696}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 4367310505174003160}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 3999815173992899187}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 6117957778777396668}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 4826000679336551728}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 2749315815405908984}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
 --- !u!1 &5861018943813287148
 GameObject:
   m_ObjectHideFlags: 0
@@ -92756,7 +90454,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100.000015, z: 99.999985}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4743883227787847744}
+  m_Father: {fileID: 5790361574864997910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8756472960555327158
 MeshFilter:
@@ -96141,89 +93839,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &6373790249231292303
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6301888244028988156}
-  - component: {fileID: 7891256024558618203}
-  m_Layer: 0
-  m_Name: Roller (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6301888244028988156
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6373790249231292303}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0.025399998, y: -0.2342357, z: 0.16237864}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7891256024558618203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6373790249231292303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 7808818793417468377}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &6374061457110930200
 GameObject:
   m_ObjectHideFlags: 0
@@ -96564,59 +94179,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &6392820662701371847
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6678688464086590412}
-  - component: {fileID: 4455432020811171877}
-  m_Layer: 0
-  m_Name: Box (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6678688464086590412
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6392820662701371847}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.2182231, y: 0.7041771, z: -0.67259103, w: 0.06430179}
-  m_LocalPosition: {x: 0.062799074, y: -0.5098706, z: 0.16937171}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1581336022807427243}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &4455432020811171877
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6392820662701371847}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.23155136, y: 0.0022860193, z: 0.15406492}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6394199384504266446
 GameObject:
   m_ObjectHideFlags: 0
@@ -97911,89 +95473,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &6474708102533140193
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7779611807687123169}
-  - component: {fileID: 13747038689600506}
-  m_Layer: 0
-  m_Name: Roller (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7779611807687123169
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6474708102533140193}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.51653326, y: -0, z: -0, w: 0.85626715}
-  m_LocalPosition: {x: 0.033337504, y: -0.18906564, z: -0.13893802}
-  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9027071735270436364}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &13747038689600506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6474708102533140193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.62193
-  length: 15.375004
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 1796004164687937777}
-    jointAxis: 0
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &6475669108255893293
 GameObject:
   m_ObjectHideFlags: 0
@@ -102395,156 +99874,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &6752420910594601714
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9126582676417410268}
-  - component: {fileID: 2273262070263640174}
-  m_Layer: 0
-  m_Name: Feeder <1>
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9126582676417410268
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6752420910594601714}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1442916164750486517}
-  - {fileID: 350266104266604820}
-  - {fileID: 7581011089518563400}
-  - {fileID: 3438504083214164412}
-  - {fileID: 3632520980298522230}
-  - {fileID: 6093922316935568993}
-  - {fileID: 6035401509809716925}
-  - {fileID: 3953748934583983343}
-  - {fileID: 1783668780415216110}
-  - {fileID: 6301888244028988156}
-  - {fileID: 621578302310944253}
-  - {fileID: 3473064804340530420}
-  - {fileID: 6056027013453891015}
-  - {fileID: 8343944016185027494}
-  - {fileID: 6259527840755620662}
-  m_Father: {fileID: 3439314182140872225}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2273262070263640174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6752420910594601714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1f241b615b547e394941950c1369b44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rollers:
-  - IntRoller: {fileID: 3661527682379800163}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 513584032350984309}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 1766772334098556240}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 2302120853605210310}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 3328185525765015523}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 239043561416639778}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 6705558393775714007}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 1468310493036810472}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 6298222198175878989}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 7891256024558618203}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 2968897189575648949}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 7228935207768884728}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 6057361481562956667}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 5543087500617961370}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
-  - IntRoller: {fileID: 7294588570361277274}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
 --- !u!1 &6763014049073470082
 GameObject:
   m_ObjectHideFlags: 0
@@ -102801,89 +100130,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &6778754263695698111
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7918805517501935527}
-  - component: {fileID: 6163369034204585893}
-  m_Layer: 0
-  m_Name: Roller (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7918805517501935527
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6778754263695698111}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.052335963, y: -0, z: -0, w: 0.9986295}
-  m_LocalPosition: {x: 0.000000006877163, y: -0.3617856, z: -0.12503636}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6647375152446923146}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6163369034204585893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6778754263695698111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.621923
-  length: 21.500002
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 5711285923747809380}
-    jointAxis: 0
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &6784279928740104432
 GameObject:
   m_ObjectHideFlags: 0
@@ -104425,89 +101671,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &6916109275775461887
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3690689934951635293}
-  - component: {fileID: 2031546176269331603}
-  m_Layer: 0
-  m_Name: Roller (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3690689934951635293
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6916109275775461887}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.20791173, y: -0, z: -0, w: 0.97814757}
-  m_LocalPosition: {x: 0.000000017764775, y: -0.18906559, z: -0.07893813}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9027071735270436364}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2031546176269331603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6916109275775461887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.6219225
-  length: 18.000002
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 1787363956450291550}
-    jointAxis: 0
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &6920185380185164796
 GameObject:
   m_ObjectHideFlags: 0
@@ -109350,7 +106513,6 @@ Transform:
   m_Children:
   - {fileID: 8002923975330914010}
   - {fileID: 8965611880300032708}
-  - {fileID: 6935519358332517581}
   m_Father: {fileID: 433708427573142189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7262896961473191356
@@ -111422,38 +108584,6 @@ CapsuleCollider:
   m_Height: 0.044450052
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &7450317371528094038
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3442735105434061527}
-  m_Layer: 0
-  m_Name: DynamicPhysics
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3442735105434061527
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7450317371528094038}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3856830330704684281}
-  m_Father: {fileID: 5812681625601393430}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7455542376739180123
 GameObject:
   m_ObjectHideFlags: 0
@@ -113421,39 +110551,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &7542016688335215893
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6935519358332517581}
-  m_Layer: 0
-  m_Name: DynamicPhysics
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6935519358332517581
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7542016688335215893}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6647375152446923146}
-  - {fileID: 9027071735270436364}
-  m_Father: {fileID: 4286211811539540107}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7552694182300915118
 GameObject:
   m_ObjectHideFlags: 0
@@ -114508,6 +111605,10 @@ Transform:
   m_Children:
   - {fileID: 4743883227787847744}
   - {fileID: 319250781140566361}
+  - {fileID: 6404104457759946257}
+  - {fileID: 261031686864544500}
+  - {fileID: 3082759649300773734}
+  - {fileID: 439006129012467552}
   m_Father: {fileID: 433708427573142189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7645617376956518774
@@ -114541,7 +111642,6 @@ Transform:
   m_Children:
   - {fileID: 6507010821443195068}
   - {fileID: 1513796816628904872}
-  - {fileID: 3439314182140872225}
   m_Father: {fileID: 433708427573142189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7653313228007231137
@@ -116684,89 +113784,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &7821770864545050545
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7959545327021378326}
-  - component: {fileID: 2749315815405908984}
-  m_Layer: 0
-  m_Name: Roller (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7959545327021378326
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7821770864545050545}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0.0635, y: -0.33020002, z: 0.012700001}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2003402195017368678}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2749315815405908984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7821770864545050545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 1761659438393539028}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &7823060371095192760
 GameObject:
   m_ObjectHideFlags: 0
@@ -117108,89 +114125,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &7828446720678486302
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8011188032765464958}
-  - component: {fileID: 6117957778777396668}
-  m_Layer: 0
-  m_Name: Roller (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8011188032765464958
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7828446720678486302}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0.0381, y: -0.33020002, z: 0.012700001}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2003402195017368678}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6117957778777396668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7828446720678486302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 9140912003572116666}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &7844528713298729005
 GameObject:
   m_ObjectHideFlags: 0
@@ -119818,91 +116752,9 @@ Transform:
   - {fileID: 3563248186484233882}
   - {fileID: 762727902893286440}
   - {fileID: 42938630695070263}
+  - {fileID: 2035566943315739504}
   m_Father: {fileID: 1011320256293712204}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8043894932250025133
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1783668780415216110}
-  - component: {fileID: 6298222198175878989}
-  m_Layer: 0
-  m_Name: Roller (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1783668780415216110
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8043894932250025133}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0.012699999, y: -0.2342357, z: 0.16237864}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6298222198175878989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8043894932250025133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 4662587498460743514}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &8046048212671576627
 GameObject:
   m_ObjectHideFlags: 0
@@ -122373,225 +119225,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &8236126082735601875
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8699805055029227363}
-  - component: {fileID: 3906994441205778122}
-  m_Layer: 0
-  m_Name: Box (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8699805055029227363
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8236126082735601875}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.2182231, y: 0.7041771, z: -0.67259103, w: 0.06430179}
-  m_LocalPosition: {x: 0.022692725, y: -0.5098706, z: -0.0077544525}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1581336022807427243}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &3906994441205778122
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8236126082735601875}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.23155136, y: 0.0022860193, z: 0.15406492}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &8238842562256279647
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3632520980298522230}
-  - component: {fileID: 3328185525765015523}
-  m_Layer: 0
-  m_Name: Roller (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3632520980298522230
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8238842562256279647}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0.025399998, y: -0.1686274, z: 0.08691005}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3328185525765015523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8238842562256279647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 8999867487464742834}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
---- !u!1 &8243960038873924165
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7170073406355089164}
-  - component: {fileID: 1041345967232039810}
-  m_Layer: 0
-  m_Name: Roller (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7170073406355089164
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8243960038873924165}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: -0.050799996, y: -0.33020002, z: 0.012700001}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2003402195017368678}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1041345967232039810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8243960038873924165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 213298864943295137}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &8246918754152029066
 GameObject:
   m_ObjectHideFlags: 0
@@ -128987,89 +125620,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6507010821443195068}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8705377782488377978
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5592557838637102544}
-  - component: {fileID: 4086872518459203185}
-  m_Layer: 0
-  m_Name: Roller (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5592557838637102544
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8705377782488377978}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.4539904, y: -0, z: -0, w: 0.89100665}
-  m_LocalPosition: {x: -0.000000015862726, y: -0.18906562, z: -0.31893772}
-  m_LocalScale: {x: 1, y: 0.99999964, z: 0.99999964}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9027071735270436364}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4086872518459203185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8705377782488377978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.6219231
-  length: 12.750004
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 5396322893099250281}
-    jointAxis: 0
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &8711264108285274571
 GameObject:
   m_ObjectHideFlags: 0
@@ -133351,89 +129901,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &8993897187271408981
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3438504083214164412}
-  - component: {fileID: 2302120853605210310}
-  m_Layer: 0
-  m_Name: Roller (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3438504083214164412
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8993897187271408981}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0.012699999, y: -0.1686274, z: 0.08691005}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2302120853605210310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8993897187271408981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 4769480977070303588}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &8995316869546958418
 GameObject:
   m_ObjectHideFlags: 0
@@ -133827,89 +130294,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &9007541988911637352
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4178980596999186475}
-  - component: {fileID: 4839924837733925841}
-  m_Layer: 0
-  m_Name: Roller (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4178980596999186475
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9007541988911637352}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.4539904, y: -0, z: -0, w: 0.89100665}
-  m_LocalPosition: {x: -0.000000015862726, y: -0.18906562, z: -0.25893784}
-  m_LocalScale: {x: 1, y: 0.99999964, z: 0.99999964}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9027071735270436364}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4839924837733925841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9007541988911637352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.6219231
-  length: 12.750004
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 4795801489719880523}
-    jointAxis: 0
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &9011910004972085352
 GameObject:
   m_ObjectHideFlags: 0
@@ -134335,89 +130719,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &9044857644528815619
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6056027013453891015}
-  - component: {fileID: 6057361481562956667}
-  m_Layer: 0
-  m_Name: Roller (13)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6056027013453891015
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9044857644528815619}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0, y: -0.33020002, z: 0.19050002}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9126582676417410268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6057361481562956667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9044857644528815619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 7777297538007396296}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &9046832161209495524
 GameObject:
   m_ObjectHideFlags: 0
@@ -135956,89 +132257,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &9141245184641734612
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5551257959791250203}
-  - component: {fileID: 4826000679336551728}
-  m_Layer: 0
-  m_Name: Roller (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5551257959791250203
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9141245184641734612}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.949972, y: -0.00000004214685, z: 0.000000042146844, w: 0.3123351}
-  m_LocalPosition: {x: 0.050799996, y: -0.33020002, z: 0.012700001}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2003402195017368678}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4826000679336551728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9141245184641734612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.99541605
-  length: 0.5000006
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 0.5
-  coreFriction: 1
-  coreBounce: 0
-  rpm: 800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 5316423699584343273}
-    jointAxis: 2
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &9142046014000194535
 GameObject:
   m_ObjectHideFlags: 0
@@ -137070,6 +133288,86 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &6766602065630154006
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 433708427573142189}
+    m_Modifications:
+    - target: {fileID: 359411448930816357, guid: f2765a2109804fa4c81afdede41f7c3e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 359411448930816357, guid: f2765a2109804fa4c81afdede41f7c3e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.048999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 359411448930816357, guid: f2765a2109804fa4c81afdede41f7c3e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 359411448930816357, guid: f2765a2109804fa4c81afdede41f7c3e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 359411448930816357, guid: f2765a2109804fa4c81afdede41f7c3e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 359411448930816357, guid: f2765a2109804fa4c81afdede41f7c3e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 359411448930816357, guid: f2765a2109804fa4c81afdede41f7c3e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 359411448930816357, guid: f2765a2109804fa4c81afdede41f7c3e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 359411448930816357, guid: f2765a2109804fa4c81afdede41f7c3e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 359411448930816357, guid: f2765a2109804fa4c81afdede41f7c3e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504457931430617475, guid: f2765a2109804fa4c81afdede41f7c3e,
+        type: 3}
+      propertyPath: m_Name
+      value: Drivetrain Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f2765a2109804fa4c81afdede41f7c3e, type: 3}
+--- !u!4 &6420776772584184947 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 359411448930816357, guid: f2765a2109804fa4c81afdede41f7c3e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6766602065630154006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7873868099374001301 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3504457931430617475, guid: f2765a2109804fa4c81afdede41f7c3e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6766602065630154006}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7848347926926427388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -137357,8 +133655,17 @@ PrefabInstance:
         type: 3}
       propertyPath: drivetrainParent
       value: 
-      objectReference: {fileID: 3504457931430617475, guid: f2765a2109804fa4c81afdede41f7c3e,
+      objectReference: {fileID: 7873868099374001301}
+    - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
         type: 3}
+      propertyPath: motor.config.K_p
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
+        type: 3}
+      propertyPath: motor.config.K_v
+      value: 0.136
+      objectReference: {fileID: 0}
     - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
         type: 3}
       propertyPath: realWorldWeightLbs
@@ -137368,6 +133675,16 @@ PrefabInstance:
         type: 3}
       propertyPath: wheelDiameterInches
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
+        type: 3}
+      propertyPath: motor.config.StatorLimit
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
+        type: 3}
+      propertyPath: motor.config.SupplyLimit
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
         type: 3}
@@ -137384,6 +133701,10 @@ PrefabInstance:
     - {fileID: 4838487985756078177, guid: fac5411432a8c96498487f1fffc06c74, type: 3}
     - {fileID: 5801844742810513076, guid: fac5411432a8c96498487f1fffc06c74, type: 3}
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7705159093392549457, guid: fac5411432a8c96498487f1fffc06c74,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6420776772584184947}
     - targetCorrespondingSourceObject: {fileID: 7705159093392549457, guid: fac5411432a8c96498487f1fffc06c74,
         type: 3}
       insertIndex: -1
