@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1409438a6844eea96767966da7413b, type: 3}
+  m_Name: TheDeceivers
+  m_EditorClassIdentifier: 
+  teamNumber: 4392
+  teamName: The Deceivers
+  robotImage: {fileID: 0}
+  mainRobot:
+    displayName: The Deceivers
+    robotPrefab: {fileID: 6544194947585429064, guid: 7606ebf57246af44fb6de77e506a0492,
+      type: 3}
+    mainMenuPrefab: {fileID: 3492063928763051373, guid: e93e64c1a7d038c439df0159acba8e2b,
+      type: 3}
+    spawnSelectionPrefab: {fileID: 450064912276602702, guid: 79e033ab69af6ff4c895e83cb9c0fd84,
+      type: 3}
+    preloadGamePiece: {fileID: 0}
+    tutorialCards:
+    - {fileID: 3438217780939975438, guid: 88730e33f5f12714da21553aec2ea507, type: 3}
+    - {fileID: 1167391215560291124, guid: 4ff900849449f4c4db850f351daeb89f, type: 3}
+    - {fileID: 244603142358070714, guid: 24c5113d415a6674ca153a5cd79e064e, type: 3}
+  alternateRobots: []
