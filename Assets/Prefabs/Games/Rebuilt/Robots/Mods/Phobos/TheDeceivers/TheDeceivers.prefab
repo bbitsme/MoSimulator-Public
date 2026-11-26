@@ -133644,7 +133644,7 @@ PrefabInstance:
     - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
         type: 3}
       propertyPath: gearRatio
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
         type: 3}
@@ -133659,12 +133659,17 @@ PrefabInstance:
     - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
         type: 3}
       propertyPath: motor.config.K_p
-      value: 0.5
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
+        type: 3}
+      propertyPath: motor.config.K_s
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
         type: 3}
       propertyPath: motor.config.K_v
-      value: 0.136
+      value: 0.67
       objectReference: {fileID: 0}
     - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
         type: 3}
@@ -133679,22 +133684,27 @@ PrefabInstance:
     - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
         type: 3}
       propertyPath: motor.config.StatorLimit
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
-        type: 3}
-      propertyPath: motor.config.SupplyLimit
       value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
         type: 3}
+      propertyPath: motor.config.SupplyLimit
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
+        type: 3}
       propertyPath: maxVelocity._encryptedValue
-      value: 1817592452
+      value: 2056122534
       objectReference: {fileID: 0}
     - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
         type: 3}
       propertyPath: maxVelocity._obfuscationKey
-      value: 754336388
+      value: 975040678
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555372738434930653, guid: fac5411432a8c96498487f1fffc06c74,
+        type: 3}
+      propertyPath: motor.config.MaxAcceleration
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
