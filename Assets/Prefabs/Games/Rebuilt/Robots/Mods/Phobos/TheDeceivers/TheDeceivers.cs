@@ -2,35 +2,53 @@ using Games.Rebuilt.Robots;
 using MoSimLib;
 using RobotFramework.Components;
 using RobotFramework.Controllers.PidSystems;
+using RobotFramework.Enums;
 using UnityEngine;
 
 public class TheDeceivers : RebuiltTurretRobot
 {
     // Joints and rollers: add serialized turret / hood / intake / shooter references here.
 
+    [Header("Joints")] 
+    [SerializeField] private GenericTurret turret;
+    [SerializeField] private GenericJoint hood;
+    
+    [Header("PID")] 
+    [SerializeField] private PidConstants turretPID;
+    [SerializeField] private PidConstants hoodPid;
+
     // PIDs and mechanism values: add serialized tuning fields here.
 
     // Runtime state: add mechanism targets and toggles here.
     // swmRef, swmSettings, rb, and driveController are inherited.
+    private float hoodTarget;
 
     protected override void Init()
     {
-        // Registers HandleSwm, zone dispatch, and shooter-state dispatch exactly once.
         base.Init();
-        // TODO: Set initial PIDs, mechanism targets, and interpolation maps.
+        turret.SetPid(turretPID);
+        hood.SetPid(hoodPid);
+        hoodTarget = 0;
 
-        Scheduler.AddProtectedSystem(UpdateJoints);
-        Scheduler.AddLateRecursive(UpdatePids);
+        Scheduler.AddLateRecursive(UpdatePid);
+        Scheduler.AddSubsystems(UpdateJoints);
+        Scheduler.AddSubsystems(Shooter);   
+        Scheduler.AddProtectedSystem(UpdateTarget);
     }
 
-    private void UpdatePids()
+    private void UpdatePid()
     {
         // TODO: Update each joint's PID constants for live tuning.
+        hood.UpdatePid(hoodPid);
+
     }
 
     private void UpdateJoints()
     {
         // TODO: Apply mechanism targets to the joints.
+        turret.Align(RotateAction.ReadValue<float>());
+        float err = turret.GetError();
+        // Debug.Log($"turret error: {err}");
     }
 
     protected override void HandleSwm()
@@ -46,11 +64,15 @@ public class TheDeceivers : RebuiltTurretRobot
     protected override void AllianceZone()
     {
         // TODO: Aim the turret / hood at the hub and choose shooter speed.
+        // Debug.Log("AllianceZone called");
+        turret.SetDefaultMap(GenericTurret.DefaultMap.Hub);
     }
 
     protected override void NeutralZone()
     {
         // TODO: Choose a pass target, turret / hood targets, and shooter speed.
+        // Debug.Log("NeutralZone called");
+        turret.SetPassMapClosest();
     }
 
     protected override void Intaking()
@@ -68,6 +90,21 @@ public class TheDeceivers : RebuiltTurretRobot
         // TODO: Feed fuel into the shooter.
     }
 
+    
+
+    private void Shooter()
+    {
+        if (OuttakeAction)
+        {
+            hoodTarget = 5;
+        }
+    }
+
+    private void UpdateTarget()
+    {
+      hood.SetTargetAngle(hoodTarget).withAxis(JointAxis.Z);
+    }  
+
     protected override void Idling()
     {
         // TODO: Stop feeding and choose idle roller behavior.
@@ -76,6 +113,6 @@ public class TheDeceivers : RebuiltTurretRobot
     protected override bool Aligned()
     {
         // TODO: Return whether turret / hood alignment and flywheel speed permit shooting.
-        return false;
+        return Mathf.Abs(turret.GetError()) < 5;
     }
 }
