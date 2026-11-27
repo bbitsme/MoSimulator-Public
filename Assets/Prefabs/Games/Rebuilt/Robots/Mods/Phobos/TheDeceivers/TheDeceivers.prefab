@@ -50027,7 +50027,7 @@ ConfigurableJoint:
   m_AngularYZDrive:
     serializedVersion: 4
     positionSpring: 0
-    positionDamper: 0
+    positionDamper: 9e+30
     maximumForce: 3.4028233e+38
     useAcceleration: 0
   m_SlerpDrive:
@@ -132022,51 +132022,21 @@ MonoBehaviour:
     kD: 0
     Max: 5
     Isaturation: 0
-  hubAngleByDistance:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
+  allianceZoneHoodInterpolation:
+    interpolationMap:
+    - distance: 2.2
       value: 0
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  passAngleByDistance:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 1.5
+    - distance: 6
+      value: 5.5
+    Distance: 0
+    Output: 0
+    transformOverride: {fileID: 3423437469019095430}
+  passZoneHoodInterpolation:
+    interpolationMap:
+    - distance: 3
       value: 0
-      inSlope: 0
-      outSlope: 0.5882353
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 10
-      value: 5
-      inSlope: 0.5882353
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+    - distance: 10
+      value: 5.5
+    Distance: 0
+    Output: 0
+    transformOverride: {fileID: 3423437469019095430}
