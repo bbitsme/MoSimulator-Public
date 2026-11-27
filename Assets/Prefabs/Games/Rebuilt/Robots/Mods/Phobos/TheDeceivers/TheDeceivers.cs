@@ -17,6 +17,16 @@ public class TheDeceivers : RebuiltTurretRobot
     [SerializeField] private PidConstants turretPID;
     [SerializeField] private PidConstants hoodPid;
 
+    [Header("Hood Aiming (degrees, 0-5)")]
+    [SerializeField] private AnimationCurve hubAngleByDistance =
+        AnimationCurve.Linear(1.5f, 0f, 6f, 5f);
+    [SerializeField] private AnimationCurve passAngleByDistance =
+        AnimationCurve.Linear(1.5f, 0f, 10f, 5f);
+
+    private bool passing;
+    private readonly System.Collections.Generic.List<Transform> nodes =
+        new System.Collections.Generic.List<Transform>();
+
     // PIDs and mechanism values: add serialized tuning fields here.
 
     // Runtime state: add mechanism targets and toggles here.
@@ -32,7 +42,7 @@ public class TheDeceivers : RebuiltTurretRobot
 
         Scheduler.AddLateRecursive(UpdatePid);
         Scheduler.AddSubsystems(UpdateJoints);
-        Scheduler.AddSubsystems(Shooter);   
+        Scheduler.AddSubsystems(Shooter);
         Scheduler.AddProtectedSystem(UpdateTarget);
     }
 
@@ -65,6 +75,7 @@ public class TheDeceivers : RebuiltTurretRobot
     {
         // TODO: Aim the turret / hood at the hub and choose shooter speed.
         // Debug.Log("AllianceZone called");
+        passing = false;
         turret.SetDefaultMap(GenericTurret.DefaultMap.Hub);
     }
 
@@ -72,6 +83,7 @@ public class TheDeceivers : RebuiltTurretRobot
     {
         // TODO: Choose a pass target, turret / hood targets, and shooter speed.
         // Debug.Log("NeutralZone called");
+        passing = true;
         turret.SetPassMapClosest();
     }
 
@@ -88,15 +100,46 @@ public class TheDeceivers : RebuiltTurretRobot
     protected override void Shooting()
     {
         // TODO: Feed fuel into the shooter.
+        
     }
 
+    private float GetTargetDistance()
+    {
+        if (nodes.Count == 0)
+        {
+            int layer = LayerMask.NameToLayer("AutoAngleNodes");
+            foreach (Transform t in FindObjectsOfType<Transform>())
+                if (t.gameObject.layer == layer) nodes.Add(t);
+        }
     
+        string alliance = gameObject.CompareTag("BlueRobot") ? "Blue" : "Red";
+        string kind = passing ? "Pass" : "Hub";
+    
+        Vector3 me = hood.transform.position; me.y = 0;
+        float best = -1f;
+    
+        foreach (Transform n in nodes)
+        {
+            if (n == null) continue;
+            if (!n.name.Contains(kind) || !n.name.Contains(alliance)) continue;
+            Vector3 p = n.position; p.y = 0;
+            float d = Vector3.Distance(me, p);
+            if (best < 0f || d < best) best = d;
+        }
+        return best < 0f ? 0f : best;
+    }
+
 
     private void Shooter()
     {
         if (OuttakeAction)
         {
-            hoodTarget = 5;
+            AnimationCurve curve = passing ? passAngleByDistance : hubAngleByDistance;
+            hoodTarget = Mathf.Clamp(curve.Evaluate(GetTargetDistance()), 0f, 5f);
+        }
+        else
+        {
+            hoodTarget = 0;
         }
     }
 
