@@ -13,10 +13,12 @@ public class TheDeceivers : RebuiltTurretRobot
     [Header("Joints")] 
     [SerializeField] private GenericTurret turret;
     [SerializeField] private GenericJoint hood;
+    [SerializeField] private GenericJoint intakeSlide;
     
     [Header("PID")] 
     [SerializeField] private PidConstants turretPID;
     [SerializeField] private PidConstants hoodPid;
+    [SerializeField] private PidConstants intakeSlidePid;
 
     [Header("Hood Interpolation")]
     [SerializeField] private RebuiltInterpolation allianceZoneHoodInterpolation;
@@ -26,13 +28,16 @@ public class TheDeceivers : RebuiltTurretRobot
     // Runtime state: add mechanism targets and toggles here.
     // swmRef, swmSettings, rb, and driveController are inherited.
     private float hoodTarget;
+    private float intakeTarget;
 
     protected override void Init()
     {
         base.Init();
         turret.SetPid(turretPID);
         hood.SetPid(hoodPid);
+        intakeSlide.SetPid(intakeSlidePid);
         hoodTarget = 0f;
+        intakeTarget = -12;
 
         allianceZoneHoodInterpolation.Initialize(this);
         passZoneHoodInterpolation.Initialize(this);
@@ -46,7 +51,7 @@ public class TheDeceivers : RebuiltTurretRobot
     {
         // TODO: Update each joint's PID constants for live tuning.
         hood.UpdatePid(hoodPid);
-
+        intakeSlide.UpdatePid(intakeSlidePid);
     }
 
     private void UpdateJoints()
@@ -80,7 +85,7 @@ public class TheDeceivers : RebuiltTurretRobot
         }
         else
         {
-            hoodTarget = 0f;
+            hoodTarget = 0;
         }
     }
 
@@ -104,6 +109,10 @@ public class TheDeceivers : RebuiltTurretRobot
     protected override void Intaking()
     {
         // TODO: Run the intake and indexer without feeding the shooter.
+        if (IntakeAction)
+        {
+            intakeTarget = 0.02f;
+        }
     }
 
     protected override void IntakingAndShooting()
@@ -120,6 +129,7 @@ public class TheDeceivers : RebuiltTurretRobot
     private void UpdateTarget()
     {
       hood.SetTargetAngle(hoodTarget).withAxis(JointAxis.Z);
+      intakeSlide.SetLinearTarget(intakeTarget).withAxis(JointAxis.Z).flipDirection();
     }  
 
     protected override void Idling()
