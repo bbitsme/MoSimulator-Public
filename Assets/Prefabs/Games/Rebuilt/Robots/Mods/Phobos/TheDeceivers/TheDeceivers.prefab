@@ -110218,7 +110218,7 @@ GameObject:
   - component: {fileID: 1333014812345837496}
   - component: {fileID: 7180261238618558237}
   - component: {fileID: 430969360143250720}
-  - component: {fileID: 6822270412585288286}
+  - component: {fileID: 8243187382554125802}
   m_Layer: 0
   m_Name: Linkages
   m_TagString: Untagged
@@ -110374,108 +110374,45 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!153 &6822270412585288286
-ConfigurableJoint:
+--- !u!114 &8243187382554125802
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7654992727274143486}
-  serializedVersion: 4
-  m_ConnectedBody: {fileID: 3335248563891515281}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: -0.4706, z: -0.3215}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
-  m_SecondaryAxis: {x: 0, y: 1, z: 0}
-  m_XMotion: 0
-  m_YMotion: 0
-  m_ZMotion: 0
-  m_AngularXMotion: 2
-  m_AngularYMotion: 0
-  m_AngularZMotion: 0
-  m_LinearLimitSpring:
-    spring: 0
-    damper: 0
-  m_LinearLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_AngularXLimitSpring:
-    spring: 0
-    damper: 0
-  m_LowAngularXLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_HighAngularXLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_AngularYZLimitSpring:
-    spring: 0
-    damper: 0
-  m_AngularYLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_AngularZLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_TargetPosition: {x: 0, y: 0, z: 0}
-  m_TargetVelocity: {x: 0, y: 0, z: 0}
-  m_XDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_YDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_ZDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_TargetAngularVelocity: {x: 0, y: 0, z: 0}
-  m_RotationDriveMode: 0
-  m_AngularXDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_AngularYZDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_SlerpDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_ProjectionMode: 0
-  m_ProjectionDistance: 0.1
-  m_ProjectionAngle: 180
-  m_ConfiguredInWorldSpace: 0
-  m_SwapBodies: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421beba0f51efa74ab0050387b64c5a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brakeModeMultiplyer: 1
+  ignoreDisabledMode: 0
+  lockJointOnDisable: 0
+  movementAudioClip: {fileID: 0}
+  audioErrorThreshold: 3
+  audioErrorDeltaThreshold: 25
+  movementAudioPitchRange: {x: 0.95, y: 1.1}
+  movementAudioVolumeRange: {x: 0.1, y: 0.25}
+  audioPitchSmoothSpeed: 8
+  audioVolumeSmoothSpeed: 8
+  audioResponseExponent: 0.75
+  debugPrint: 0
+  DebugErrorDeltaInt: 0
+  CurrentValue: 0
+  TargetValue: 0
+  OutputValue: 0
+  _startingPosition: {x: 0, y: 0, z: 0}
+  linearAxis: 0
+  useDifferentEncoderAxis: 0
+  encoderAxis: 0
+  flipDirection: 0
+  useStartingOffset: 0
+  angularAxis: 0
+  velocityAxis: 0
+  noWrap: 0
+  noWrapAngle: 0
+  isWrapping: 0
 --- !u!1 &7667856618377297344
 GameObject:
   m_ObjectHideFlags: 0
@@ -117759,7 +117696,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1967467215416881702}
   - component: {fileID: 3335248563891515281}
-  - component: {fileID: 501024434697309269}
+  - component: {fileID: 2882437197987880190}
+  - component: {fileID: 2843518775058354239}
   m_Layer: 0
   m_Name: intakePivot
   m_TagString: Untagged
@@ -117864,7 +117802,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8225124560628784149}
   serializedVersion: 4
-  m_Mass: 5
+  m_Mass: 0.2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -117883,7 +117821,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!153 &501024434697309269
+--- !u!153 &2882437197987880190
 ConfigurableJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117959,7 +117897,7 @@ ConfigurableJoint:
   m_AngularXDrive:
     serializedVersion: 4
     positionSpring: 0
-    positionDamper: 0
+    positionDamper: 9e+30
     maximumForce: 3.4028233e+38
     useAcceleration: 0
   m_AngularYZDrive:
@@ -117985,6 +117923,45 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &2843518775058354239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8225124560628784149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421beba0f51efa74ab0050387b64c5a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brakeModeMultiplyer: 1
+  ignoreDisabledMode: 0
+  lockJointOnDisable: 0
+  movementAudioClip: {fileID: 0}
+  audioErrorThreshold: 3
+  audioErrorDeltaThreshold: 25
+  movementAudioPitchRange: {x: 0.95, y: 1.1}
+  movementAudioVolumeRange: {x: 0.1, y: 0.25}
+  audioPitchSmoothSpeed: 8
+  audioVolumeSmoothSpeed: 8
+  audioResponseExponent: 0.75
+  debugPrint: 0
+  DebugErrorDeltaInt: 0
+  CurrentValue: 0
+  TargetValue: 0
+  OutputValue: 0
+  _startingPosition: {x: 0, y: 0, z: 0}
+  linearAxis: 0
+  useDifferentEncoderAxis: 0
+  encoderAxis: 0
+  flipDirection: 0
+  useStartingOffset: 0
+  angularAxis: 0
+  velocityAxis: 0
+  noWrap: 0
+  noWrapAngle: 0
+  isWrapping: 0
 --- !u!1 &8234088233465607229
 GameObject:
   m_ObjectHideFlags: 0
@@ -128450,7 +128427,7 @@ ConfigurableJoint:
   m_ZDrive:
     serializedVersion: 4
     positionSpring: 0
-    positionDamper: 0
+    positionDamper: 9e+30
     maximumForce: 3.4028233e+38
     useAcceleration: 0
   m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -132707,6 +132684,8 @@ MonoBehaviour:
   turret: {fileID: 6398507353443966442}
   hood: {fileID: 6673380449465314842}
   intakeSlide: {fileID: 7001465987738989117}
+  intakeArm: {fileID: 2843518775058354239}
+  intakeBar: {fileID: 8243187382554125802}
   turretPID:
     kP: 5
     kI: 0
@@ -132720,6 +132699,18 @@ MonoBehaviour:
     Max: 5
     Isaturation: 0
   intakeSlidePid:
+    kP: 5
+    kI: 0
+    kD: 0
+    Max: 5
+    Isaturation: 0
+  intakeArmPid:
+    kP: 5
+    kI: 0
+    kD: 0
+    Max: 5
+    Isaturation: 0
+  intakeBarPid:
     kP: 5
     kI: 0
     kD: 0
@@ -132743,3 +132734,53 @@ MonoBehaviour:
     Distance: 0
     Output: 0
     transformOverride: {fileID: 3423437469019095430}
+  intakeSpeedInPerSec: 20
+  armAngleBySlide:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -12
+      value: 0
+      inSlope: 8.333333
+      outSlope: 8.333333
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0
+      value: 100
+      inSlope: 8.333333
+      outSlope: 8.333333
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  barAngleBySlide:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -12
+      value: 0
+      inSlope: -4.5833335
+      outSlope: -4.5833335
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0
+      value: -55
+      inSlope: -4.5833335
+      outSlope: -4.5833335
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  slideSign: 10

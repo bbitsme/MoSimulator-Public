@@ -14,30 +14,55 @@ public class TheDeceivers : RebuiltTurretRobot
     [SerializeField] private GenericTurret turret;
     [SerializeField] private GenericJoint hood;
     [SerializeField] private GenericJoint intakeSlide;
+    [SerializeField] private GenericJoint intakeArm;   // intakePivot
+    [SerializeField] private GenericJoint intakeBar;
     
     [Header("PID")] 
     [SerializeField] private PidConstants turretPID;
     [SerializeField] private PidConstants hoodPid;
     [SerializeField] private PidConstants intakeSlidePid;
+    [SerializeField] private PidConstants intakeArmPid;
+    [SerializeField] private PidConstants intakeBarPid;
 
     [Header("Hood Interpolation")]
     [SerializeField] private RebuiltInterpolation allianceZoneHoodInterpolation;
     [SerializeField] private RebuiltInterpolation passZoneHoodInterpolation;
+
+    [Header("Intake Travel (inches)")]
+    [SerializeField] private float intakeSpeedInPerSec = 20f;
+    [SerializeField] private AnimationCurve armAngleBySlide = AnimationCurve.Linear(-12f, 0f, 0f, 80f);
+    [SerializeField] private AnimationCurve barAngleBySlide = AnimationCurve.Linear(-12f, 0f, 0f, -60f);
+    [SerializeField] private float slideSign = 1f;   // flip to -1 if the reading goes the wrong way
+    private Vector3 slideStartLocal;
     // PIDs and mechanism values: add serialized tuning fields here.
 
     // Runtime state: add mechanism targets and toggles here.
     // swmRef, swmSettings, rb, and driveController are inherited.
     private float hoodTarget;
     private float intakeTarget;
+    private float intakeCommand;
+
+    private float GetSlideInches()
+    {
+        Vector3 delta = intakeSlide.transform.localPosition - slideStartLocal;
+        return Vector3.Dot(delta, Vector3.forward) * 39.37f * slideSign;
+    }
 
     protected override void Init()
     {
         base.Init();
+
         turret.SetPid(turretPID);
         hood.SetPid(hoodPid);
         intakeSlide.SetPid(intakeSlidePid);
+        intakeArm.SetPid(intakeArmPid);
+        intakeBar.SetPid(intakeBarPid);
+
+        slideStartLocal = intakeSlide.transform.localPosition;
+
         hoodTarget = 0f;
-        intakeTarget = -12;
+        intakeTarget = -12f;
+        intakeCommand = intakeTarget; 
 
         allianceZoneHoodInterpolation.Initialize(this);
         passZoneHoodInterpolation.Initialize(this);
@@ -52,6 +77,8 @@ public class TheDeceivers : RebuiltTurretRobot
         // TODO: Update each joint's PID constants for live tuning.
         hood.UpdatePid(hoodPid);
         intakeSlide.UpdatePid(intakeSlidePid);
+        intakeArm.UpdatePid(intakeArmPid);
+        intakeBar.UpdatePid(intakeBarPid);
     }
 
     private void UpdateJoints()
@@ -111,7 +138,7 @@ public class TheDeceivers : RebuiltTurretRobot
         // TODO: Run the intake and indexer without feeding the shooter.
         if (IntakeAction)
         {
-            intakeTarget = 0.02f;
+            intakeTarget = 0f;
         }
     }
 
@@ -129,13 +156,22 @@ public class TheDeceivers : RebuiltTurretRobot
     private void UpdateTarget()
     {
       hood.SetTargetAngle(hoodTarget).withAxis(JointAxis.Z);
-      intakeSlide.SetLinearTarget(intakeTarget).withAxis(JointAxis.Z).flipDirection();
+
+      intakeCommand = Mathf.MoveTowards(intakeCommand, intakeTarget,
+        intakeSpeedInPerSec * Time.fixedDeltaTime);
+
+    float slideInches = GetSlideInches();
+
+    intakeSlide.SetLinearTarget(intakeTarget).withAxis(JointAxis.Z).flipDirection();
+    intakeArm.SetTargetAngle(armAngleBySlide.Evaluate(intakeCommand)).withAxis(JointAxis.X).flipDirection();
+    intakeBar.SetTargetAngle(barAngleBySlide.Evaluate(intakeCommand)).withAxis(JointAxis.X).flipDirection();
     }  
 
     protected override void Idling()
     {
         // TODO: Stop feeding and choose idle roller behavior.
         hoodTarget = 0f;
+        intakeTarget = -12f;
     }
 
     protected override bool Aligned()
